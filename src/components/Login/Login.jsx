@@ -7,10 +7,10 @@ const Login = () => {
     <div>
       <form className="cta cta-form--sign-in" name="login">
         <div>
-          <label htmlFor="log-in">Login</label>
+          <label className="log-in--label" htmlFor="log-in">Login</label>
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label className="text-color--login" htmlFor="email">Email:</label>
           <input
             id="email"
             type="email"
@@ -21,7 +21,7 @@ const Login = () => {
         </div>
 
         <div>
-          <label htmlFor="password">Password:</label>
+          <label className="text-color--login" htmlFor="password">Password:</label>
           <input
             id="password"
             type="password"

@@ -1,3 +1,11 @@
-.cta-form--profile{
+.cta-form--profile {
   background-color: #fff;
+}
+
+.profile-label{
+  margin-bottom: 2rem;
+}
+
+.text-color--profile {
+  color: rgb(204, 204, 207);
 }

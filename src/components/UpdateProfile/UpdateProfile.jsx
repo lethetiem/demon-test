@@ -6,15 +6,15 @@ const UpdateProfile = () => {
   return <div>
     <form className="cta cta-form--profile" name="update-profile">
           <div>
-            <label htmlFor="profile">Profile</label>
+            <label className="profile-label" htmlFor="profile">Profile</label>
           </div>
           <div>
-            <label htmlFor="full-name">Full name:</label>
+            <label className="text-color--profile" htmlFor="full-name">Full name:</label>
             <input id="full-name" type="text" name="full-name" required></input>
           </div>
 
           <div>
-            <label htmlFor="day-of-bird">Day Of Birth:</label>
+            <label className="text-color--profile" htmlFor="day-of-bird">Day Of Birth:</label>
             <input
               id="day-of-bird"
               type="text"
@@ -24,12 +24,12 @@ const UpdateProfile = () => {
           </div>
 
           <div>
-            <label htmlFor="email">Email:</label>
+            <label className="text-color--profile" htmlFor="email">Email:</label>
             <input id="email" type="email" name="email" required></input>
           </div>
 
           <div>
-            <label htmlFor="phone-number">Phone:</label>
+            <label className="text-color--profile" htmlFor="phone-number">Phone:</label>
             <input
               id="phone-number"
               type="text"

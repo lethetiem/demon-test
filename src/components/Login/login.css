@@ -1,4 +1,17 @@
 .cta-form--sign-in{
+  display: block;
+  /* justify-content: center; */
+  /* align-items: center; */
   background-color: #fff;
   padding-bottom: 2.4rem;
 }
+
+.log-in--label{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.text-color--login{
+  color: blue;
+}
+
