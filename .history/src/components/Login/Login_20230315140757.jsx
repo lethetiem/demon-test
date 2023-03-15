@@ -7,10 +7,10 @@ const Login = () => {
     <div>
       <form className="cta cta-form--sign-in" name="login">
         <div>
-          <label className="log-in--label" htmlFor="log-in">Login</label>
+          <label htmlFor="log-in">Login</label>
         </div>
         <div>
-          <label className="text-color--login" htmlFor="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input
             id="email"
             type="email"
@@ -21,7 +21,7 @@ const Login = () => {
         </div>
 
         <div>
-          <label className="text-color--login" htmlFor="password">Password:</label>
+          <label htmlFor="password">Password:</label>
           <input
             id="password"
             type="password"
@@ -32,15 +32,11 @@ const Login = () => {
         </div>
 
         <div className="password-checkbox">
-          <input
-            id="check-box"
-            className="checkbox-input"
-            type="checkbox"
-            name="check-box"
-          ></input>
-          <label htmlFor="check-box">Show password</label>
-          <button className="btn btn--form btn-sign-in">Sign in</button>
+          <p>show password</p>
+          <input id="check-box" type="checkbox" name="check-box"></input>
         </div>
+
+        <button className="btn btn--form">Sign in</button>
       </form>
     </div>
   );
