@@ -38,7 +38,7 @@ const UpdateProfile = () => {
             ></input>
           </div>
 
-          <div className="post">
+          <div className="btn-profile">
             <button className="btn btn--update">Update</button>
             <button className="btn btn--cancel">Cancel</button>
           </div>

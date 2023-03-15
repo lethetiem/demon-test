@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.cta-form--sign-in{
+.cta-form--sign-in {
   display: block;
   /* justify-content: center; */
   /* align-items: center; */
@@ -7,16 +6,15 @@
   padding-bottom: 2.4rem;
 }
 
-.log-in--label{
+.log-in--label {
   text-align: center;
   margin-top: 4rem;
 }
 
-.text-color--login{
+.text-color--login {
   color: blue;
 }
 
-=======
 .cta-form--sign-in {
   background-color: #fff;
   padding-bottom: 2.4rem;
@@ -28,9 +26,9 @@
 .password-checkbox {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  justify-items: center;
+  margin-bottom: 12rem;
 }
 .btn-sign-in {
   padding: 0.6rem 3.2rem !important;
 }
->>>>>>> hhoang

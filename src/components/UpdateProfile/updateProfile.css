@@ -3,9 +3,18 @@
 }
 
 .profile-label{
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .text-color--profile {
   color: rgb(204, 204, 207);
+}
+
+.btn-profile{
+  display: flex;
+  justify-content: end;
+}
+
+.btn--update{
+  margin-right: 2rem;
 }
