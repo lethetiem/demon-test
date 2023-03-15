@@ -32,15 +32,16 @@ const Login = () => {
         </div>
 
         <div className="password-checkbox">
+          <label htmlFor="check-box">show password</label>
           <input
             id="check-box"
             className="checkbox-input"
             type="checkbox"
             name="check-box"
           ></input>
-          <label htmlFor="check-box">Show password</label>
-          <button className="btn btn--form btn-sign-in">Sign in</button>
         </div>
+
+        <button className="btn btn--form">Sign in</button>
       </form>
     </div>
   );

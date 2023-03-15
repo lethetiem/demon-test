@@ -38,8 +38,8 @@ const Login = () => {
             type="checkbox"
             name="check-box"
           ></input>
-          <label htmlFor="check-box">Show password</label>
-          <button className="btn btn--form btn-sign-in">Sign in</button>
+          <label htmlFor="check-box">show password</label>
+          <button className="btn btn--form">Sign in</button>
         </div>
       </form>
     </div>

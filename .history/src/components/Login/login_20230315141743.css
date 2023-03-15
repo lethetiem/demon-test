@@ -9,8 +9,6 @@
 .password-checkbox {
   display: flex;
   justify-content: space-between;
-  align-content: center;
 }
 .btn-sign-in {
-  padding: 0.6rem 3.2rem !important;
 }

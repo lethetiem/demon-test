@@ -39,7 +39,7 @@ const Login = () => {
             name="check-box"
           ></input>
           <label htmlFor="check-box">Show password</label>
-          <button className="btn btn--form btn-sign-in">Sign in</button>
+          <button className="btn btn--form">Sign in</button>
         </div>
       </form>
     </div>
