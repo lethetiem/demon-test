@@ -1,5 +1,6 @@
 .cta-form--profile {
   background-color: #fff;
+  height: 50rem;
 }
 
 .profile-label{
@@ -12,7 +13,7 @@
 
 .btn-profile{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .btn--update{

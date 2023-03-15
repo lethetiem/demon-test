@@ -32,7 +32,7 @@ const UpdateProfile = () => {
             <label className="text-color--profile" htmlFor="phone-number">Phone:</label>
             <input
               id="phone-number"
-              type="text"
+              type="tel" maxLength={10}
               name="phone-number"
               required
             ></input>

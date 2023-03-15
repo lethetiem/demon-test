@@ -1,7 +1,5 @@
 .cta-form--sign-in {
   display: block;
-  /* justify-content: center; */
-  /* align-items: center; */
   background-color: #fff;
   padding-bottom: 2.4rem;
 }
@@ -18,17 +16,25 @@
 .cta-form--sign-in {
   background-color: #fff;
   padding-bottom: 2.4rem;
+  height: 50rem;
 }
 .checkbox-input {
   width: 15px !important;
   height: 15px !important;
+  margin-right: 10px;
 }
 .password-checkbox {
   display: flex;
   justify-content: space-between;
   justify-items: center;
-  margin-bottom: 12rem;
+  align-items: center;
+}
+.label-showPassword {
+  margin-bottom: 0;
 }
 .btn-sign-in {
   padding: 0.6rem 3.2rem !important;
+}
+.password-check-box-container {
+  display: flex;
 }
