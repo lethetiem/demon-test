@@ -5,12 +5,19 @@
 .checkbox-input {
   width: 15px !important;
   height: 15px !important;
+  margin-right: 10px;
 }
 .password-checkbox {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+}
+.label-showpassword {
+  margin-bottom: 0;
 }
 .btn-sign-in {
   padding: 0.6rem 3.2rem !important;
+}
+.password-check-box-container {
+  display: flex;
 }
